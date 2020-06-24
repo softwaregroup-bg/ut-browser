@@ -1,0 +1,44 @@
+{
+  "name": "ut-browser",
+  "version": "7.0.0",
+  "main": "index.js",
+  "browser": "browser.js",
+  "dependencies": {
+    "ut-function.dispatch": "^1.1.1"
+  },
+  "devDependencies": {
+    "tap": "^12.5.3",
+    "ut-tools": "^6.28.0"
+  },
+  "peerDependencies": {
+  },
+  "description": "Microservice browser",
+  "scripts": {
+    "lint": "ut-lint .",
+    "release": "ut-release",
+    "changelog": "ut-changelog",
+    "check": "ut-check",
+    "cover": "ut-cover-parallel",
+    "lint-js": "ut-lint-js .",
+    "postpublish": "ut-postpublish",
+    "postversion": "ut-postversion",
+    "precommit": "ut-precommit",
+    "precover": "ut-precover",
+    "prepublish": "ut-prepublish",
+    "prepush": "ut-prepush",
+    "pretest": "ut-pretest",
+    "preversion": "ut-preversion",
+    "test": "ut-test-parallel",
+    "version": "ut-version",
+    "jenkins": "ut-jenkins",
+    "gitlab": "ut-gitlab"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.softwaregroup.com/repository/npm-internal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:softwaregroup-bg/ut-browser.git"
+  },
+  "license": "Apache-2.0"
+}
