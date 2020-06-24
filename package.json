@@ -1,6 +1,6 @@
 {
   "name": "ut-browser",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "main": "index.js",
   "browser": "browser.js",
   "dependencies": {
@@ -10,8 +10,7 @@
     "tap": "^12.5.3",
     "ut-tools": "^6.28.0"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "description": "Microservice browser",
   "scripts": {
     "lint": "ut-lint .",
