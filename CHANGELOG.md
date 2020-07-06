@@ -1,3 +1,12 @@
+# 7.2.0 (2020-07-06)
+
+
+### Features
+
+* initial ([f0976b2](https://github.com/softwaregroup-bg/ut-browser/commit/f0976b2b0a3b6d1ce09a6ebd385663855a6438fe))
+
+
+
 ## [7.0.9](https://github.com/softwaregroup-bg/ut-microservice/compare/v7.0.8...v7.0.9) (2020-04-02)
 
 
