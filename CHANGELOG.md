@@ -1,3 +1,12 @@
+# [7.3.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.2.0...v7.3.0) (2020-07-15)
+
+
+### Features
+
+* add rpc port ([4532a5e](https://github.com/softwaregroup-bg/ut-browser/commit/4532a5e8894194782dc699bd3ba14ad55e3fd195))
+
+
+
 # 7.2.0 (2020-07-06)
 
 
