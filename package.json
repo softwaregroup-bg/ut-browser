@@ -10,7 +10,9 @@
     "tap": "^12.5.3",
     "ut-tools": "^6.28.0"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "ut-port-jsonrpc": "^7.1.1"
+  },
   "description": "Microservice browser",
   "scripts": {
     "lint": "ut-lint .",
