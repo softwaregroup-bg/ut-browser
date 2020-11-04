@@ -11,10 +11,13 @@ module.exports = (...params) => class backend extends require('ut-port-jsonrpc')
         const {send} = super.handlers();
         return {
             start() {
-                const server = this.bus && typeof this.bus.config.server === 'function' && this.bus.config.server();
-                const status = server && server.serviceBus && server.serviceBus.rpc && server.serviceBus.rpc.info;
-                const {host, port, protocol} = typeof status === 'function' && server.serviceBus.rpc.info();
-                if (host && port && protocol) this.config.url = `${protocol}://${host}:${port}`;
+                if (!process.browser) {
+                    const server = this.bus && typeof this.bus.config.server === 'function' && this.bus.config.server();
+                    const rpc = (server && server.serviceBus && server.serviceBus.rpc) || this.bus;
+                    const status = rpc && rpc.info;
+                    const {host, port, protocol} = typeof status === 'function' && rpc.info();
+                    if (host && port && protocol) this.config.url = `${protocol}://${host}:${port}`;
+                }
             },
             send(params, {method}) {
                 if (!params.$http) params.$http = {};
