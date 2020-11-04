@@ -1,3 +1,12 @@
+# [7.4.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.3.0...v7.4.0) (2020-11-04)
+
+
+### Features
+
+* enable usage in unit tests ([af590ac](https://github.com/softwaregroup-bg/ut-browser/commit/af590ac12722a781ab8bac2ab3d5414e0077e5be))
+
+
+
 # [7.3.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.2.0...v7.3.0) (2020-07-15)
 
 
