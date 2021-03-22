@@ -4,14 +4,14 @@
   "main": "index.js",
   "browser": "browser.js",
   "dependencies": {
-    "ut-function.dispatch": "^1.1.1"
+    "ut-function.dispatch": "^1.2.1"
   },
   "devDependencies": {
     "tap": "^12.5.3",
-    "ut-tools": "^6.28.0"
+    "ut-tools": "^6.37.0"
   },
   "peerDependencies": {
-    "ut-port-jsonrpc": "^7.1.1"
+    "ut-port-jsonrpc": "^7.3.0"
   },
   "description": "Microservice browser",
   "scripts": {
