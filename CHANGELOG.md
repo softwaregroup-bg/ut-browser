@@ -1,3 +1,7 @@
+## [7.4.1](https://github.com/softwaregroup-bg/ut-browser/compare/v7.4.0...v7.4.1) (2021-03-22)
+
+
+
 # [7.4.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.3.0...v7.4.0) (2020-11-04)
 
 
