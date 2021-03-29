@@ -1,3 +1,12 @@
+# [7.5.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.4.1...v7.5.0) (2021-03-29)
+
+
+### Features
+
+* browser config ([1fdb207](https://github.com/softwaregroup-bg/ut-browser/commit/1fdb207cfd2130b77fe9f67a8149cad941044ff8))
+
+
+
 ## [7.4.1](https://github.com/softwaregroup-bg/ut-browser/compare/v7.4.0...v7.4.1) (2021-03-22)
 
 
