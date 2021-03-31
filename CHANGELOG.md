@@ -1,3 +1,12 @@
+## [7.5.1](https://github.com/softwaregroup-bg/ut-browser/compare/v7.5.0...v7.5.1) (2021-03-31)
+
+
+### Bug Fixes
+
+* publish ([ef06056](https://github.com/softwaregroup-bg/ut-browser/commit/ef06056f6d7ac6ebaf0157c8bdf5d4fac251ae8a))
+
+
+
 # [7.5.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.4.1...v7.5.0) (2021-03-29)
 
 
