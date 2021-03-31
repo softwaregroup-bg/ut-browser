@@ -34,9 +34,6 @@
     "jenkins": "ut-jenkins",
     "gitlab": "ut-gitlab"
   },
-  "publishConfig": {
-    "registry": "https://nexus.softwaregroup.com/repository/npm-internal"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:softwaregroup-bg/ut-browser.git"
