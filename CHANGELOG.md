@@ -1,3 +1,12 @@
+# [7.6.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.5.1...v7.6.0) (2021-06-11)
+
+
+### Features
+
+* default extension html [UTCORE-121] ([0d3cad7](https://github.com/softwaregroup-bg/ut-browser/commit/0d3cad793f7932f4984d11c29f78f74f0831254b))
+
+
+
 ## [7.5.1](https://github.com/softwaregroup-bg/ut-browser/compare/v7.5.0...v7.5.1) (2021-03-31)
 
 
