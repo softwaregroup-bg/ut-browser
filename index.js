@@ -15,6 +15,7 @@ module.exports = () => function utBrowser({target = path.resolve('dist', 'admin.
                     browser: () => ({
                         directory: {
                             path: path.dirname(target),
+                            defaultExtension: 'html',
                             lookupCompressed: true,
                             index: false
                         }
