@@ -1,6 +1,12 @@
 module.exports = () => ({
     // environments
     storybook: {
-        browser: true
+        browser: true,
+        backend: {
+            namespace: [
+                'login',
+                'identity'
+            ]
+        }
     }
 });
