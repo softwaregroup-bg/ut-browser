@@ -11,7 +11,7 @@ module.exports = (...params) => class backend extends require('ut-port-jsonrpc')
         const {send} = super.handlers();
         return {
             start() {
-                if (!process.browser) {
+                if (!process.browser && !this.config.url) {
                     const server = this.bus && typeof this.bus.config.server === 'function' && this.bus.config.server();
                     const rpc = (server && server.serviceBus && server.serviceBus.rpc) || this.bus;
                     const status = rpc && rpc.info;
