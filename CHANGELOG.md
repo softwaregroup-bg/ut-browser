@@ -1,3 +1,12 @@
+## [7.6.2](https://github.com/softwaregroup-bg/ut-browser/compare/v7.6.1...v7.6.2) (2021-09-09)
+
+
+### Bug Fixes
+
+* provide possibility to run integration tests against external server ([5475a01](https://github.com/softwaregroup-bg/ut-browser/commit/5475a012851bab82630beb0061569b825c9925ed))
+
+
+
 ## [7.6.1](https://github.com/softwaregroup-bg/ut-browser/compare/v7.6.0...v7.6.1) (2021-07-22)
 
 
