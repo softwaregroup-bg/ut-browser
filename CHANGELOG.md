@@ -1,3 +1,12 @@
+# [7.7.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.6.2...v7.7.0) (2021-11-16)
+
+
+### Features
+
+* help/ handler #UTCORE-121 ([d8a7455](https://github.com/softwaregroup-bg/ut-browser/commit/d8a7455260431ba1b7c07de4fc080eeff1e98e64)), closes [#UTCORE-121](https://github.com/softwaregroup-bg/ut-browser/issues/UTCORE-121)
+
+
+
 ## [7.6.2](https://github.com/softwaregroup-bg/ut-browser/compare/v7.6.1...v7.6.2) (2021-09-09)
 
 
