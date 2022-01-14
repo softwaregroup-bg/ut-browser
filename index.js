@@ -26,7 +26,7 @@ module.exports = () => function utBrowser({
                         redirect: home
                     }),
                     'help/': () => ({
-                        file: help
+                        file: helpTarget
                     }),
                     help: () => ({
                         directory: {

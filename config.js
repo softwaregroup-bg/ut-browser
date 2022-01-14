@@ -7,6 +7,8 @@ module.exports = () => ({
     },
     validation: ({ joi }) =>
         joi.object({
+            target: joi.string(),
+            helpTarget: joi.string(),
             gateway: joi.boolean(),
             browser: joi.boolean(),
             backend: joi.any(),
