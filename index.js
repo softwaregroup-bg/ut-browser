@@ -3,14 +3,15 @@ const dispatch = require('ut-function.dispatch');
 
 module.exports = () => function utBrowser({
     target = path.resolve('dist', 'admin.html'),
-    help = path.resolve('help', 'index.html')
+    helpTarget = path.resolve('help', 'index.html')
 }) {
     return {
+        config: require('./config'),
         gateway: () => [
             function browser() {
                 return dispatch({namespace: 'browser'})(...arguments);
             },
-            function asset() {
+            function asset({ config: { home, help }}) {
                 return {
                     'browser/': () => ({
                         file: target
@@ -21,18 +22,20 @@ module.exports = () => function utBrowser({
                             defaultExtension: 'html',
                             lookupCompressed: true,
                             index: false
-                        }
+                        },
+                        redirect: home
                     }),
                     'help/': () => ({
                         file: help
                     }),
                     help: () => ({
                         directory: {
-                            path: path.dirname(help),
+                            path: path.dirname(helpTarget),
                             defaultExtension: 'html',
                             lookupCompressed: true,
                             index: false
-                        }
+                        },
+                        redirect: help
                     })
                 };
             }
