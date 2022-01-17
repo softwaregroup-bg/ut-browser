@@ -1,8 +1,8 @@
 module.exports = () => ({
     common: {
         asset: {
-            home: '/a/browser/admin.html',
-            help: '/a/help/index.html'
+            home: '/a/browser/admin',
+            help: '/a/help/index'
         }
     },
     validation: ({ joi }) =>
