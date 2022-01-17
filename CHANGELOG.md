@@ -1,3 +1,12 @@
+## [7.7.1](https://github.com/softwaregroup-bg/ut-browser/compare/v7.7.0...v7.7.1) (2022-01-17)
+
+
+### Bug Fixes
+
+* **BDB-2582:** allow redirect for asset routes ([#2](https://github.com/softwaregroup-bg/ut-browser/issues/2)) ([5e0a24c](https://github.com/softwaregroup-bg/ut-browser/commit/5e0a24cb360d35837ad4cf9f3dfa13c4a89d6afd))
+
+
+
 # [7.7.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.6.2...v7.7.0) (2021-11-16)
 
 
