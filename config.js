@@ -5,6 +5,12 @@ module.exports = () => ({
             help: '/a/help/index'
         }
     },
+    microservice: {
+        gateway: true
+    },
+    unit: {
+        gateway: true
+    },
     validation: ({ joi }) =>
         joi.object({
             target: joi.string(),
