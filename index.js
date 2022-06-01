@@ -3,7 +3,7 @@ const dispatch = require('ut-function.dispatch');
 
 module.exports = () => function utBrowser({
     target = path.resolve('dist', 'admin.html'),
-    helpTarget = path.resolve('help', 'index.html')
+    helpTarget = path.resolve('dist', 'help', 'index.html')
 }) {
     return {
         config: require('./config'),
