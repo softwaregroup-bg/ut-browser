@@ -1,3 +1,12 @@
+## [7.7.3](https://github.com/softwaregroup-bg/ut-browser/compare/v7.7.2...v7.7.3) (2022-06-01)
+
+
+### Bug Fixes
+
+* move help to dist ([2441939](https://github.com/softwaregroup-bg/ut-browser/commit/2441939340d971209e813ae58a30c313cea4f97c))
+
+
+
 ## [7.7.2](https://github.com/softwaregroup-bg/ut-browser/compare/v7.7.1...v7.7.2) (2022-02-22)
 
 
