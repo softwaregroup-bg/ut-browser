@@ -4,4 +4,3 @@ library identifier: 'jenkinsfile@gallium', retriever: modernSCM([
 ])
 
 ut buildImage: 'nexus-dev.softwaregroup.com:5000/softwaregroup/node-gallium'
-

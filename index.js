@@ -33,7 +33,7 @@ module.exports = () => function utBrowser({
                             path: path.dirname(helpTarget),
                             defaultExtension: 'html',
                             lookupCompressed: true,
-                            index: false
+                            index: true
                         },
                         redirect: help
                     })
