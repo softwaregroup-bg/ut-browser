@@ -8,7 +8,8 @@ module.exports = (...params) => class backend extends require('ut-port-jsonrpc')
     }
 
     handlers() {
-        const {send} = super.handlers();
+        const {send, receive} = super.handlers();
+        let utVersion = null;
         return {
             start() {
                 if (!process.browser && !this.config.url) {
@@ -23,6 +24,17 @@ module.exports = (...params) => class backend extends require('ut-port-jsonrpc')
                 if (!params.$http) params.$http = {};
                 if (!params.$http.uri) params.$http.uri = `/rpc/${method.replace(/\//ig, '%2F').replace(/\./g, '/')}`;
                 return send.apply(this, arguments);
+            },
+            receive(msg, $meta) {
+                const {response: { headers }} = $meta;
+                const serverVersion = headers?.['x-ut-version'];
+                utVersion = utVersion ?? serverVersion;
+                if(serverVersion && utVersion !== serverVersion) {
+                    // todo: handle appropriately
+                    // either with force refresh or some modal to confirm
+                    alert('different browser/server versions detected');
+                }
+                return receive.apply(this, arguments);
             }
         };
     }
