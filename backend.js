@@ -26,13 +26,12 @@ module.exports = (...params) => class backend extends require('ut-port-jsonrpc')
                 return send.apply(this, arguments);
             },
             receive(msg, $meta) {
-                const {response: { headers }} = $meta;
+                const headers = $meta?.response?.headers;
                 const serverVersion = headers?.['x-ut-version'];
                 utVersion = utVersion ?? serverVersion;
                 if(serverVersion && utVersion !== serverVersion) {
-                    // todo: handle appropriately
-                    // either with force refresh or some modal to confirm
-                    alert('different browser/server versions detected');
+                    // refresh the current page in order to fetch the latest ui assets
+                    window?.location?.reload?.();
                 }
                 return receive.apply(this, arguments);
             }
