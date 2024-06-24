@@ -29,7 +29,7 @@ module.exports = (...params) => class backend extends require('ut-port-jsonrpc')
                 const headers = $meta?.response?.headers;
                 const serverVersion = headers?.['x-ut-version'];
                 utVersion = utVersion ?? serverVersion;
-                if(serverVersion && utVersion !== serverVersion) {
+                if (serverVersion && utVersion !== serverVersion) {
                     // refresh the current page in order to fetch the latest ui assets
                     window?.location?.reload?.();
                 }
