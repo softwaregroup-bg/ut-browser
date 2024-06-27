@@ -1,3 +1,17 @@
+# [7.8.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.7.4...v7.8.0) (2024-06-27)
+
+
+### Bug Fixes
+
+* refresh current page ([25f16eb](https://github.com/softwaregroup-bg/ut-browser/commit/25f16eb112e44a65fee2f32721257bdba237ce11))
+
+
+### Features
+
+* **CBI-999:** browser/server ut version ([47785ba](https://github.com/softwaregroup-bg/ut-browser/commit/47785ba3651d813e6e2918dec188c8c6b349d1cc))
+
+
+
 ## [7.7.4](https://github.com/softwaregroup-bg/ut-browser/compare/v7.7.3...v7.7.4) (2022-06-03)
 
 
