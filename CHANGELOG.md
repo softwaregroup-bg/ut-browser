@@ -1,3 +1,7 @@
+## [7.8.2](https://github.com/softwaregroup-bg/ut-browser/compare/v7.8.1...v7.8.2) (2024-08-12)
+
+
+
 ## [7.8.1](https://github.com/softwaregroup-bg/ut-browser/compare/v7.8.0...v7.8.1) (2024-08-12)
 
 
