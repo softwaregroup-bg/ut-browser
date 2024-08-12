@@ -1,3 +1,12 @@
+## [7.8.1](https://github.com/softwaregroup-bg/ut-browser/compare/v7.8.0...v7.8.1) (2024-08-12)
+
+
+### Bug Fixes
+
+* enforce last working cheerio version for node16 ([a9483cd](https://github.com/softwaregroup-bg/ut-browser/commit/a9483cd5fe3a1ba7983d2cce5c41bef93d6f95ce))
+
+
+
 # [7.8.0](https://github.com/softwaregroup-bg/ut-browser/compare/v7.7.4...v7.8.0) (2024-06-27)
 
 
