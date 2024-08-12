@@ -13,6 +13,11 @@
   "peerDependencies": {
     "ut-port-jsonrpc": "^7.3.0"
   },
+  "overrides": {
+    "csp-html-webpack-plugin": {
+      "cheerio": "1.0.0-rc.11"
+    }
+  },
   "description": "Microservice browser",
   "scripts": {
     "lint": "ut-lint .",
